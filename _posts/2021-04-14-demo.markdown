@@ -7,7 +7,7 @@ categories: hiring info
 
 ## 文件命名约定
 
-统一采用 `YEAR-MONTH-DATE-TITLE.markdown` 来书写 post, 每个日期的 markdown 文件中需要插入的图片放在 `include/YEAR-MONTH-DATE-TITLE/` 目录下
+统一采用 `YEAR-MONTH-DATE-TITLE.markdown` 来书写 post, 每个日期的 markdown 文件中需要插入的图片放在 `assets/YEAR-MONTH-DATE-TITLE/` 目录下
 
 ## Formatter
 
@@ -28,7 +28,10 @@ categories: jekyll update
 
 e.g., 插入图片: `![TITLE](PATH_TO_FIGURE)`
 
-![01]({{site.url}}/include/2021-04-14/01.png)
+![01]({{site.url}}/assets/2021-04-14/01.png)
+
+**注意根目录为 `{{site.url}}` !!**
+
 
 e.g., 插入网页链接 or 文件链接: `[TITLE](LINK_TO_WEBPAGE)`
 
