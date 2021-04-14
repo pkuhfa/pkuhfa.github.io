@@ -1,0 +1,68 @@
+---
+layout: post
+title:  "Demo Post"
+date:   2021-04-14 21:15:00 +0800
+categories: hiring info
+---
+
+## 文件命名约定
+
+统一采用 `YEAR-MONTH-DATE-TITLE.markdown` 来书写 post, 每个日期的 markdown 文件中需要插入的图片放在 `include/YEAR-MONTH-DATE-TITLE/` 目录下
+
+## Formatter
+
+这一部分是 formatter, 其中 `title` 为文章标题, `date` 是发布的时间
+
+```
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date: 2021-04-14 21:15:00 +0800
+categories: jekyll update
+---
+```
+
+## Body
+
+文章的主题利用 Markdown 写, 可以理解成是轻量化的 latex, 关于 markdown 的详细信息可以自行 google. 很多编辑器如 `Typora` 可以提供实时预览, 可以在编辑器中预览好了再 merge 到这个 repo 中.
+
+e.g., 插入图片: `![TITLE](PATH_TO_FIGURE)`
+
+![01]({{site.url}}/include/2021-04-14/01.png)
+
+e.g., 插入网页链接 or 文件链接: `[TITLE](LINK_TO_WEBPAGE)`
+
+[我们的 Github 页面](https://github.com/pkuhfa/pkuhfa.github.io)
+
+e.g., 插入引用:
+> #急招，协会可refer
+>【全职】中金公司股票业务部门 招聘 量化系统开发，策略开发
+>
+> 主要从事与量化定价与交易，各种程序化交易等相关的系统开发工作。
+>
+> 工作内容:
+> 招聘的是和交易策略直接相关的职位，工作内容与业务发展紧密挂钩，公司氛围好。薪酬待遇丰厚，基本薪水+年度奖金
+>
+> 招聘要求:
+> 扎实的计算机相关背景，对金融领域感兴趣。
+>
+> 21年毕业生和有相关工作经验的都考虑。投简历后有合适的，内部直接推荐面试。
+>
+> 联系方式： pkuhfa@163.com
+> 邮件标题： 中金公司股票业务部衍生品组实习+姓名+学校+专业
+> 地点： 北京
+
+## 推荐格式
+
+每周实习信息汇总时, 用二级标题分割不同岗位, e.g.,
+
+```
+## 岗位 1
+
+描述
+
+## 岗位 2
+
+描述
+```
+
