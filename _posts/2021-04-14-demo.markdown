@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Demo Post"
+title:  Demo
 date:   2021-04-14 21:15:00 +0800
 categories: hiring info
 ---
 
 ## 文件命名约定
 
-统一采用 `YEAR-MONTH-DATE-TITLE.markdown` 来书写 post, 每个日期的 markdown 文件中需要插入的图片放在 `assets/YEAR-MONTH-DATE-TITLE/` 目录下
+统一采用 `YEAR-MONTH-DATE-TITLE.markdown` 来书写 post, 每个日期的 markdown 文件中需要插入的图片放在 `assets/YEAR-MONTH-DATE/` 目录下
 
 ## Formatter
 
@@ -19,8 +19,11 @@ layout: post
 title:  "Welcome to Jekyll!"
 date: 2021-04-14 21:15:00 +0800
 categories: jekyll update
+keywords: optional
 ---
 ```
+
+`keywords` 可以是从发布的内容中提取的关键词，会显示在主页上，默认最多显示 5 个
 
 ## Body
 
@@ -30,7 +33,7 @@ e.g., 插入图片: `![TITLE](PATH_TO_FIGURE)`
 
 ![01]({{site.url}}/assets/2021-04-14/01.png)
 
-**注意根目录为 `{{site.url}}` !!**
+**注意根目录!!**
 
 
 e.g., 插入网页链接 or 文件链接: `[TITLE](LINK_TO_WEBPAGE)`
@@ -69,3 +72,10 @@ e.g., 插入引用:
 描述
 ```
 
+## FYI
+
+[Markdown Guides](https://guides.github.com/features/mastering-markdown/)
+
+[站点的本地测试](https://docs.github.com/cn/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
+
+[Git 基本操作](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)

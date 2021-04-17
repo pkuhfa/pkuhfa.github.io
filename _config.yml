@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: HFA 量化部内推信息
+title: HFA 量化部内推信息汇总
 email: pkuhfa@163.com
 description: >- # this means to ignore newlines until "baseurl:"
   HFA 量化部内推信息汇总，不定期更新～ 如需订阅请前往 https://github.com/pkuhfa/pkuhfa.github.io
